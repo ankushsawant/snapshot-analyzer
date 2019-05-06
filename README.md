@@ -2,7 +2,7 @@
 Python project to manage AWS EC2 snapshots
 
 ## About
-Simple Python project, that uses boto3 to manage AWS EC2 instances
+Simple Python project, that uses boto3 and click modules to manage AWS EC2 instances
 
 ## Configuring
 snapshot-analyzer uses AWS profile created by AWS CLI
