@@ -10,4 +10,7 @@ snapshot-analyzer uses AWS profile created by AWS CLI
 e.g. `aws configure --profile ec2user`
 
 ## Running
-`pipenv run "python shotty\sanalyzer.py"`
+`pipenv run "python shotty\sanalyzer.py <command> <--project=ProjectName>"`
+
+*command* is list, start, stop or terminate
+*project* is optional
